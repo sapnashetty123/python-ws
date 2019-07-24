@@ -3,6 +3,7 @@ class Car:
         self.regno = regno
         self.no_gears = no_gears
         self.is_started = False
+        self.c_gear = 0
     def start(self):
         if self.is_started:
             print(f"car already started")
@@ -17,6 +18,10 @@ class Car:
             print(f"{self.regno} already stopped...")
     def change_gear(self):
         if self.is_started:
-            print(f"{self.regno} changed gear...")
+            if self.c_gear < self.no_gears:
+                self.c_gear += 1
+                print(f"{self.regno} changed gear...{self.c_gear}")
+            else:
+                print(f"{self.regno} reached top gear...{self.c_gear}")
         else:
             print(f"{self.regno} already stopped cannot change gear...")
