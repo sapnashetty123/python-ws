@@ -1,7 +1,7 @@
 prod={}
 while True:
     def show(prod):
-        if len(prod.keys())!= 0:
+        if len(prod)!= 0:
             for key,val in prod.items():
                 print(f"{key}:{val}")
         else:
