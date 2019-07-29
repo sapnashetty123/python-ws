@@ -1,0 +1,10 @@
+1,Sapna,M.tech,25000,CSE
+2,Yashu,M.tech,26000,ISE
+3,Akshari,B.tech,24000,CSE
+4,Sannidhi,Phd,22000,ISE
+5,Neha,M.tech,21000,CSE
+6,Srirathna,B.tech,25000,EC
+7,Sammi,M.tech,26000,CSE
+8,Madhusha,Phd,22000,ISE
+9,Arpitha,Phd,40000,EC
+10,Raji,B.tech,29000,CSE
